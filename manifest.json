@@ -2,7 +2,7 @@
     "name": "yaudah sih",
     "short_name": "yaudah sih",
     "description": "Teman AI kecil untuk ngobrol, berpikir, dan membantu berbagai kebutuhan.",
-    "start_url": "./",
+    "start_url": "/",
     "display": "standalone",
     "background_color": "#F1E5DF",
     "theme_color": "#D991AF",
