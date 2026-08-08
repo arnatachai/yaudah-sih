@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>yaudah sih</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="manifest" href="manifest.json">
+
+    <meta
+        name="theme-color"
+        content="#D991AF"
+    >
+
+    <meta
+        name="mobile-web-app-capable"
+        content="yes"
+    >
+
+    <meta
+        name="apple-mobile-web-app-capable"
+        content="yes"
+    >
+
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- ========================= -->
+        <!-- SIDEBAR                   -->
+        <!-- ========================= -->
+
+        <aside class="sidebar">
+
+            <div class="brand">
+                <div class="brand-icon">
+                    ✦
+                </div>
+
+                <div>
+                    <h2>Yaudah Si</h2>
+                    <span>Asisten lu</span>
+                </div>
+            </div>
+
+
+            <button class="new-chat">
+                <span>＋</span>
+                New Chat
+            </button>
+
+
+            <div class="history">
+
+                <p class="history-title">
+                    RECENT CHATS
+                </p>
+
+                <div class="chat-item active">
+                    <span>💬</span>
+                    <p>New conversation</p>
+                </div>
+
+                <div class="chat-item">
+                    <span>💬</span>
+                    <p>AI &amp; data configuration</p>
+                </div>
+
+                <div class="chat-item">
+                    <span>💬</span>
+                    <p>Learning assistant</p>
+                </div>
+
+            </div>
+
+
+            <div class="sidebar-bottom">
+
+                <div class="ai-status">
+                    <span class="status-dot"></span>
+
+                    <div>
+                        <strong>Online aja si</strong>
+                        <small>Ready to chat</small>
+                    </div>
+                </div>
+
+            </div>
+
+        </aside>
+
+
+        <!-- ========================= -->
+        <!-- CHAT AREA                 -->
+        <!-- ========================= -->
+
+        <main class="chat-area">
+
+            <!-- HEADER -->
+
+            <header class="chat-header">
+
+                <div class="ai-profile">
+
+                    <div class="ai-avatar">
+                        ✦
+                    </div>
+
+                    <div>
+                        <h3>Yaudah Si</h3>
+
+                        <p>
+                            <span class="online-dot"></span>
+                            Online
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <button class="menu-button">
+                    ⋮
+                </button>
+
+            </header>
+
+
+            <!-- ========================= -->
+            <!-- MESSAGES                  -->
+            <!-- ========================= -->
+
+            <section
+                class="messages"
+                id="messages"
+            >
+
+                <!-- WELCOME -->
+
+                <div
+                    class="welcome"
+                    id="welcome"
+                >
+
+                    <div class="welcome-orb">
+                        ✦
+                    </div>
+
+                    <p class="welcome-label">
+                        Asisten lu
+                    </p>
+
+                    <h1>
+                        Woi!! <span>♡</span>
+                    </h1>
+
+                    <p class="welcome-text">
+                        Gue bantu dah apapun, ngomong ajaa
+                    </p>
+
+
+                    <div class="suggestions">
+
+                        <button class="suggestion">
+                            ✨ Brainstorm?
+                        </button>
+
+                        <button class="suggestion">
+                            📊 Analyze data?
+                        </button>
+
+                        <button class="suggestion">
+                            ✍️ Write? Jago gue mah
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PESAN AKAN MUNCUL DI SINI -->
+
+            </section>
+
+
+            <!-- ========================= -->
+            <!-- INPUT                     -->
+            <!-- ========================= -->
+
+            <div class="input-area">
+
+                <div
+                    class="input-box"
+                    id="inputBox"
+                >
+
+                    <textarea
+                        id="messageInput"
+                        rows="1"
+                        placeholder="Type something..."
+                    ></textarea>
+
+
+                    <button
+                        class="send-button"
+                        id="sendButton"
+                        aria-label="Send message"
+                    >
+                        ➤
+                    </button>
+
+                </div>
+
+
+                <p class="input-note">
+                    Yaudah Si can make mistakes.
+                    Check important information.
+                </p>
+
+            </div>
+
+        </main>
+
+    </div>
+
+
+    <!-- ========================= -->
+    <!-- ANIMATION CONTAINER       -->
+    <!-- ========================= -->
+
+    <div
+        id="effects"
+        class="effects"
+    ></div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
